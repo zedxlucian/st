@@ -5,10 +5,10 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Iosevka Nerd Font Mono:style=Regular:pixelsize=14:antialias=false:autohint=false";
+static char *font = "Victor Mono:style=Medium:pixelsize=16:antialias=false:autohint=false";
 /* Spare fonts */
 static char *font2[] = {
-	"MesloLGS NF:style=Regular:pixelsize=12:antialias=true:autohint=true", 
+	"fontawesome:pixelsize=16:antialias=true:autohint=true", 
 };
 
 static int borderpx = 2;
