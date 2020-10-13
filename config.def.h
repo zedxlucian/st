@@ -5,10 +5,10 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrains Mono:style=Medium:pixelsize=14:antialias=false:autohint=false";
+static char *font = "monospace:style=Medium:pixelsize=14:antialias=false:autohint=false";
 /* Spare fonts */
 static char *font2[] = {
-	"Font Awesome Free 5 Regular:pixelsize=12:antialias=true:autohint=true", 
+	"FontAwesome:pixelsize=16:antialias=true:autohint=true", 
 };
 
 static int borderpx = 2;
