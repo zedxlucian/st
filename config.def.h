@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "monospace:style=Medium:pixelsize=14:antialias=false:autohint=false";
+static char *font = "monospace:style=Medium:pixelsize=16:antialias=false:autohint=false";
 /* Spare fonts */
 static char *font2[] = {
 	"FontAwesome:pixelsize=16:antialias=true:autohint=true", 
@@ -103,31 +103,32 @@ float alpha = 1, alphaUnfocused = 0.9;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
+
 	/* 8 normal colors */
- 	"black",
- 	"red3",
- 	"green3",
- 	"yellow3",
- 	"blue2",
- 	"magenta3",
- 	"cyan3",
- 	"gray90",
- 
- 	/* 8 bright colors */
- 	"gray50",
- 	"red",
- 	"green",
- 	"yellow",
- 	"#5c5cff",
- 	"magenta",
- 	"cyan",
- 	"white",
- 
- 	[255] = 0,
- 
- 	/* more colors can be added after 255 to use with DefaultXX */
- 	"#cccccc",
- 	"#555555",
+	"#535353", /* black   */
+	"#FF5555", /* red     */
+	"#50FA7B", /* green   */
+	"#F1FA8C", /* yellow  */
+	"#BD93F9", /* purple    */
+	"#FF79C6", /* magenta */
+	"#8BE9FD", /* cyan    */
+	"#ffffff", /* white   */
+
+	/* 8 bright colors */
+	"#535353", /* black   */
+	"#FF5555", /* red     */
+	"#50FA7B", /* green   */
+	"#F1FA8C", /* yellow  */
+	"#BD93F9", /* purple    */
+	"#FF79C6", /* magenta */
+	"#8BE9FD", /* cyan    */
+	"#ffffff", /* white   */
+
+	[255] = 0,
+
+	/* special colors */
+	"#030303", /* background */
+	"#f1ebeb", /* foreground */
 };
 
 /*
@@ -137,7 +138,7 @@ static const char *colorname[] = {
 unsigned int defaultfg = 257;
 unsigned int defaultbg = 256;
 static unsigned int defaultcs = 257;
-static unsigned int defaultrcs = 257;
+static unsigned int defaultrcs = 256;
 unsigned int bg = 256, bgUnfocused = 256;
 
 /*
