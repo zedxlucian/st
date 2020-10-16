@@ -103,32 +103,31 @@ float alpha = 1, alphaUnfocused = 0.9;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-
-	/* 8 normal colors */
-	"#535353", /* black   */
-	"#FF5555", /* red     */
-	"#50FA7B", /* green   */
-	"#F1FA8C", /* yellow  */
-	"#BD93F9", /* purple    */
-	"#FF79C6", /* magenta */
-	"#8BE9FD", /* cyan    */
-	"#ffffff", /* white   */
-
-	/* 8 bright colors */
-	"#535353", /* black   */
-	"#FF5555", /* red     */
-	"#50FA7B", /* green   */
-	"#F1FA8C", /* yellow  */
-	"#BD93F9", /* purple    */
-	"#FF79C6", /* magenta */
-	"#8BE9FD", /* cyan    */
-	"#ffffff", /* white   */
-
-	[255] = 0,
-
-	/* special colors */
-	"#030303", /* background */
-	"#f1ebeb", /* foreground */
+  	/* 8 normal colors */
+  	"black",
+  	"red3",
+  	"green3",
+  	"yellow3",
+  	"blue2",
+  	"magenta3",
+  	"cyan3",
+  	"gray90",
+  
+  	/* 8 bright colors */
+  	"gray50",
+  	"red",
+  	"green",
+  	"yellow",
+  	"#5c5cff",
+  	"magenta",
+  	"cyan",
+  	"white",
+  
+  	[255] = 0,
+  
+  	/* more colors can be added after 255 to use with DefaultXX */
+  	"#cccccc",
+  	"#555555",
 };
 
 /*
