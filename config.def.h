@@ -156,7 +156,7 @@ unsigned int defaultunderline = 7;
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
-static unsigned int cursorshape = 2;
+static unsigned int cursorshape = 6;
 
 /*
  * Default columns and rows numbers
@@ -190,22 +190,22 @@ static uint forcemousemod = ShiftMask;
  */
 ResourcePref resources[] = {
 		{ "font",         STRING,  &font },
-		{ "color0",       STRING,  &colorname[0] },
-		{ "color1",       STRING,  &colorname[1] },
-		{ "color2",       STRING,  &colorname[2] },
-		{ "color3",       STRING,  &colorname[3] },
-		{ "color4",       STRING,  &colorname[4] },
-		{ "color5",       STRING,  &colorname[5] },
-		{ "color6",       STRING,  &colorname[6] },
-		{ "color7",       STRING,  &colorname[7] },
-		{ "color8",       STRING,  &colorname[8] },
-		{ "color9",       STRING,  &colorname[9] },
-		{ "color10",      STRING,  &colorname[10] },
-		{ "color11",      STRING,  &colorname[11] },
-		{ "color12",      STRING,  &colorname[12] },
-		{ "color13",      STRING,  &colorname[13] },
-		{ "color14",      STRING,  &colorname[14] },
-		{ "color15",      STRING,  &colorname[15] },
+		{ "col0",         STRING,  &colorname[0] },
+		{ "col1",         STRING,  &colorname[1] },
+		{ "col2",         STRING,  &colorname[2] },
+		{ "col3",         STRING,  &colorname[3] },
+		{ "col4",         STRING,  &colorname[4] },
+		{ "col5",         STRING,  &colorname[5] },
+		{ "col6",         STRING,  &colorname[6] },
+		{ "col7",         STRING,  &colorname[7] },
+		{ "col8",         STRING,  &colorname[8] },
+		{ "col9",         STRING,  &colorname[9] },
+		{ "col10",        STRING,  &colorname[10] },
+		{ "col11",        STRING,  &colorname[11] },
+		{ "col12",        STRING,  &colorname[12] },
+		{ "col13",        STRING,  &colorname[13] },
+		{ "col14",        STRING,  &colorname[14] },
+		{ "col15",        STRING,  &colorname[15] },
 		{ "background",   STRING,  &colorname[256] },
 		{ "foreground",   STRING,  &colorname[257] },
 		{ "cursorColor",  STRING,  &colorname[258] },
