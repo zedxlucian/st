@@ -8,7 +8,9 @@
 static char *font = "monospace:pixelsize=14:antialias=true:autohint=true";
 static char *font2[] = {
 	"JoyPixels:pixelsize=10:antialias=true:autohint=true",
-	"FontAwesome:pixelsize=10:antialias=true:autohint=true",
+	"Font Awesome 5 Free Regular:style=Regular:pixelsize=10:antialias=true:autohint=true",
+	"Font Awesome 5 Brands Regular:style=Regular:pixelsize=10:antialias=true:autohint=true",
+	"Font Awesome 5 Free Solid:style=Solid:pixelsize=10:antialias=true:autohint=true",
 	"MesloLGL Nerd Font:pixelsize=10:antialias=true:autohint=true",
 };
 
